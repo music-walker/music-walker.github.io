@@ -47,39 +47,91 @@
       <div class="columns is-centered">
         <div class="column has-text-centered">
           <h1 class="title is-1 publication-title">Music-Driven Legged Robots: Synchronized Walking to Rhythmic Beats</h1>
+          <div class="is-size-5 publication-authors">
+          <span class="author-block">
+            <a>Taixian Hou</a><sup>1</sup>,</span>
+          <span class="author-block">
+            <a>Yueqi Zhang</a><sup>1</sup>,</span>
+          <span class="author-block">
+            <a>Changyi Lin</a><sup>1</sup>,</span>
+          <span class="author-block">
+            <a>Xiaoyi Wei</a><sup>1</sup>,</span>
+          <span class="author-block">
+            <a>Zhiyan Dong</a><sup>1</sup>,</span>
+          <span class="author-block">
+            <a>Jiafu Yi</a><sup>2</sup>,</span>
+          <span class="author-block">
+            <a>Peng Zhai</a><sup>1</sup>,</span>
+          <span class="author-block">
+            <a>Lihua Zhang</a><sup>1</sup>,</span>
           </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Fudan University,</span>
+            <span class="author-block"><sup>2</sup>Hainan University, </span>
+          </div>
+
+          <div class="column has-text-centered">
+            <b>Under Submission, ICRA 2024</b>
+          </div>
+
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<section class="hero teaser"></section>
+  <div class="container is-max-desktop">
+    <div style="display: flex; justify-content: center; align-items: center; height: auto;">
+    <img id="teaser-image" src="./resources/MusicTempo.png" alt="Teaser Image" style="width: 84%; height: auto; margin-right: 2%; border-radius: 10px;">
+    </div>
+    <h2 class="subtitle has-text-centered">
+      We propose a hierarchical architecture that synchronized legged robots gaits with musical rhythms.
+    </h2>
+    <div style="text-align: center;">
+    <span class="link-block">
+      <a href="https://github.com/Calvindrinks/music-walker" class="external-link button is-normal is-rounded is-dark" target="_blank">
+        <span class="icon">
+          <i class="fab fa-github"></i>
+        </span>
+        <span>Code</span>
+      </a>
+    </span>
+  </div>
+</section>
+
 
 <!-- Paper video. -->
 
-
+<section class="section"></section>
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            We address the challenge of effectively controlling the locomotion of legged robots by incorporating precise frequency and phase characteristics, which is often disregarded in locomotion policies that do not account for the periodic nature of walking. 
+            We propose a hierarchical architecture that integrates a low-level phase tracker, oscillators, and a high-level phase modulator. This controller allows quadruped robots to walk in a natural manner that is synchronized with external musical rhythms. Our method generates diverse gaits across different frequencies and achieves real-time synchronization with music in the physical world.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </section>
 
 <section class="section">
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-9">
-        <h2 class="title is-2" style="text-align: center;" id="demo">Music Tests with mLH0 162BPM</h2>
         <div style="text-align: center;">
 
-        <span class="link-block">
-          <a href="https://github.com/Calvindrinks/music-walker" class="external-link button is-normal is-rounded is-dark" target="_blank">
-            <span class="icon">
-              <i class="fab fa-github"></i>
-            </span>
-            <span>Code</span>
-          </a>
-        </span>
+        <h2 class="title is-2" style="text-align: center;" id="demo">Music Sync Experiment</h2>
+        <p>
+          Click the speaker icon to turn on the sound. 
+        </p>
         </div>
-          <center>
-          <video controls autoplay muted loop playsinline poster="./resources/loading-icon.gif" style="width: 60%; border: 1px solid #bbb; border-radius: 10px; margin: 2.0%;">
-            <source src="./resources/mLH0.mp4" type="video/mp4">
-          </video><br>
-          Music-Driven Controller on the Go1 Robot. 
-          </center>
       </div>
       </div>
     </div>
@@ -90,48 +142,13 @@
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-9">
-        <h2 class="title is-2" style="text-align: center;" id="demo">mLO1 89BPM</h2>
-        <div style="text-align: center;">
+        <h4 class="title is-4" style="text-align: center;" id="demo">Track: mJS4 120BPM</h4>
 
-        <span class="link-block">
-          <a href="https://github.com/Calvindrinks/music-walker" class="external-link button is-normal is-rounded is-dark" target="_blank">
-            <span class="icon">
-              <i class="fab fa-github"></i>
-            </span>
-            <span>Code</span>
-          </a>
-        </span>
-        </div>
+        <center>
+        muted by default</center>
+
           <center>
-          <video controls autoplay muted loop playsinline poster="./resources/loading-icon.gif" style="width: 60%; border: 1px solid #bbb; border-radius: 10px; margin: 2.0%;">
-            <source src="./resources/mLO1.mp4" type="video/mp4">
-          </video><br>
-          Music-Driven Controller on the Go1 Robot. 
-          </center>
-      </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-9">
-        <h2 class="title is-2" style="text-align: center;" id="demo">mJS4 120BPM</h2>
-        <div style="text-align: center;">
-
-        <span class="link-block">
-          <a href="https://github.com/Calvindrinks/music-walker" class="external-link button is-normal is-rounded is-dark" target="_blank">
-            <span class="icon">
-              <i class="fab fa-github"></i>
-            </span>
-            <span>Code</span>
-          </a>
-        </span>
-        </div>
-          <center>
-          <video controls autoplay muted loop playsinline poster="./resources/loading-icon.gif" style="width: 60%; border: 1px solid #bbb; border-radius: 10px; margin: 2.0%;">
+          <video controls autoplay muted loop playsinline poster="./resources/loading-icon.gif" style="width: 80%; border: 1px solid #bbb; border-radius: 10px; margin: 2.0%;">
             <source src="./resources/mJS4.mp4" type="video/mp4">
           </video><br>
           Music-Driven Controller on the Go1 Robot. 
@@ -142,62 +159,70 @@
   </div>
 </section>
 
-<section class="section">
-  <div class="container">
+<section class="section"></section>
+  <div class="container is-max-desktop">
+    <div class="content has-text-justified">
+    </div>
     <div class="columns is-centered">
-      <div class="column is-9">
-        <h2 class="title is-2" style="text-align: center;" id="demo">mJB1 181BPM</h2>
-        <div style="text-align: center;">
-
-        <span class="link-block">
-          <a href="https://github.com/Calvindrinks/music-walker" class="external-link button is-normal is-rounded is-dark" target="_blank">
-            <span class="icon">
-              <i class="fab fa-github"></i>
-            </span>
-            <span>Code</span>
-          </a>
-        </span>
-        </div>
+      <!-- pronk_long -->
+      <div class="column">
+        <div class="content">
+          <h4 class="title is-4" style="text-align: center;" id="demo">mJB1 181BPM</h4>
           <center>
-          <video controls autoplay muted loop playsinline poster="./resources/loading-icon.gif" style="width: 60%; border: 1px solid #bbb; border-radius: 10px; margin: 2.0%;">
+          <video controls autoplay muted loop playsinline poster="./resources/loading-icon.gif" style="width: 100%; border: 1px solid #bbb; border-radius: 10px; margin: 2.0%;">
             <source src="./resources/mJB1.mp4" type="video/mp4">
           </video><br>
-          Music-Driven Controller on the Go1 Robot. 
           </center>
+        </div>
       </div>
+      <!--/ pronk_long -->
+      <!-- bound_long -->
+      <div class="column">
+        <div class="content">
+          <h4 class="title is-4" style="text-align: center;" id="demo">mLH0 162BPM</h4>
+          <center>
+          <video controls autoplay muted loop playsinline poster="./resources/loading-icon.gif" style="width: 100%; border: 1px solid #bbb; border-radius: 10px; margin: 2.0%;">
+            <source src="./resources/mLH0.mp4" type="video/mp4">
+          </video><br>
+          </center>
+        </div>
       </div>
+      <!--/ bound_long -->
     </div>
-  </div>
 </section>
 
-<section class="section">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-9">
-        <h2 class="title is-2" style="text-align: center;" id="demo">mLO1 second video</h2>
-        <div style="text-align: center;">
 
-        <span class="link-block">
-          <a href="https://github.com/Calvindrinks/music-walker" class="external-link button is-normal is-rounded is-dark" target="_blank">
-            <span class="icon">
-              <i class="fab fa-github"></i>
-            </span>
-            <span>Code</span>
-          </a>
-        </span>
-        </div>
+<section class="section"></section>
+  <div class="container is-max-desktop">
+    <div class="content has-text-justified">
+    </div>
+    <div class="columns is-centered">
+      <!-- pronk_long -->
+      <div class="column">
+        <div class="content">
+          <h4 class="title is-4" style="text-align: center;" id="demo">mLO1 89BPM</h4>
           <center>
-          <video controls autoplay muted loop playsinline poster="./resources/loading-icon.gif" style="width: 60%; border: 1px solid #bbb; border-radius: 10px; margin: 2.0%;">
+          <video controls autoplay muted loop playsinline poster="./resources/loading-icon.gif" style="width: 100%; border: 1px solid #bbb; border-radius: 10px; margin: 2.0%;">
+            <source src="./resources/mLO1.mp4" type="video/mp4">
+          </video><br>
+          </center>
+        </div>
+      </div>
+      <!--/ pronk_long -->
+      <!-- bound_long -->
+      <div class="column">
+        <div class="content">
+          <h4 class="title is-4" style="text-align: center;" id="demo">mLO1 second video</h4>
+          <center>
+          <video controls autoplay muted loop playsinline poster="./resources/loading-icon.gif" style="width: 100%; border: 1px solid #bbb; border-radius: 10px; margin: 2.0%;">
             <source src="./resources/mLO1-2.mp4" type="video/mp4">
           </video><br>
-          Music-Driven Controller on the Go1 Robot. 
           </center>
+        </div>
       </div>
-      </div>
+      <!--/ bound_long -->
     </div>
-  </div>
 </section>
-
 
 
 </body>
